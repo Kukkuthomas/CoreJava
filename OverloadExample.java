@@ -1,6 +1,6 @@
 package coreJPgm;
 import java.util.Scanner;
-public class CJOverload 
+public class OverloadExample 
 {
 	Scanner s=new Scanner(System.in);
 	public void area(float d,float e)
@@ -25,7 +25,7 @@ public class CJOverload
 	}
 	public static void main(String args[])
 	{
-		CJOverload obj=new CJOverload();
+		OverloadExample obj=new OverloadExample();
 		System.out.println("\tAREA");
 		System.out.println("\t****");
 		obj.area(5.0f,7.0f);
