@@ -1,5 +1,5 @@
 package coreJPgm;
-class CJOverriding_Parent
+class Overriding_Parent
 {
 	public void addition(int a, int b)
 	{
@@ -7,7 +7,7 @@ class CJOverriding_Parent
 		System.out.println(x);
 	}
 }
-class CJOverr_Child1 extends CJOverriding_Parent
+class Overriding_Child1 extends Overriding_Parent
 {
 	public void addition(int a, int b)
 	{
@@ -16,12 +16,12 @@ class CJOverr_Child1 extends CJOverriding_Parent
 	}
 }
 	
-class CJOverriding 
+class Overriding 
 {
 	public static void main(String args[])
 	{		
-		CJOverriding_Parent over=new CJOverriding_Parent();
-		CJOverriding_Parent overc=new CJOverr_Child1();
+		Overriding_Parent over=new Overriding_Parent();
+		Overriding_Parent overc=new Overriding_Child1();
 		//over.addition(10, 20);
 		overc.addition(20,30);
 	}
