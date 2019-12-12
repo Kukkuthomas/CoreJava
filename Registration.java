@@ -1,6 +1,6 @@
 package coreJPgm;
 import java.util.Scanner;
-public class CJ1 
+public class Registration 
 {
 	String name,address,contactno,email,prooftype,proofid;
 	public static void main(String args[])
