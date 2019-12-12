@@ -6,7 +6,7 @@ public class Registration
 	public static void main(String args[])
 	{
 		Scanner s=new Scanner(System.in);
-		CJ1 obj=new CJ1();
+		Registration obj=new Registration();
 		System.out.println("Enter your name");
 		obj.name=s.nextLine();
 		System.out.println("Enter your address");
