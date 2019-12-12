@@ -1,11 +1,10 @@
 package coreJPgm;
 import java.util.Scanner;
-public class CJ2 
-{
-		
+public class CustomerRegistration 
+{		
 	String name,address,contactNumber,email,proofType,proofId;
 
-	public CJ2(String name,String address,String contactNumber,String email,String proofType,String proofId)
+	public CustomerRegistration(String name,String address,String contactNumber,String email,String proofType,String proofId)
 	{
 		this.name=name;
 		this.address=address;
@@ -30,9 +29,6 @@ public class CJ2
 	public static void main(String args[])
 	{
 		Scanner s=new Scanner(System.in);
-		
-		//String name,address,contactNumber,email,proofType,proofId;
-		
 		System.out.println("Customer Registration\n");
 		System.out.println("=====================\n");
 		System.out.println("Enter your name");
@@ -48,7 +44,7 @@ public class CJ2
 		System.out.println("Enter proof id");
 		String proofId=s.nextLine();
 		
-		CJ2 obj=new CJ2(name,address,contactNumber,email,proofType,proofId);
+		CustomerRegistration obj=new CustomerRegistration(name,address,contactNumber,email,proofType,proofId);
 		obj.display();
 		s.close();
 	}
